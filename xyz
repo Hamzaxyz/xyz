@@ -6,10 +6,13 @@
 
 
     void print3largest(int arr[], int arr_size) 
-  { 
-int i, first, second, third; 
 
-if (arr_size < 3) 
+  { 
+int i, first, second, third;
+ 
+
+if (arr_size < 3)
+ 
 { 
 	cout<<(" Invalid Input "); 
 	return; 
@@ -45,5 +48,10 @@ for (i = 0; i < arr_size ; i ++)
      int n = sizeof(arr) / sizeof(arr[0]);
 
       print3largest (arr, n); 
-        return 0; 
+return 0; 
+}
+
+void printmin(int arr[],int arr_size)
+{
+  
 }
